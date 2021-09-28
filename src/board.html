@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CJ's Sound Board</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="logo">
+    <img src="assets/cj_board_white.svg"></img>
+    </div>
+
+    <script src="soundBoard.js"></script>
+    <div> 
+      <label class="switch" title="Light/Dark"> 
+        <input type="checkbox" onclick="darkLightmode()"> 
+        <span class="slider"></span>
+      </label>
+      <input class='volumeSlider' type="range" id="volume" title="Volume"
+      min="0" max="100" step="0.5"></input> 
+    </div>  
+  <div class="button" onclick="playSound('sounds/get-to-the-chopper.mp3')"></div>
+  <div class="button" onclick="playSound('sounds/Bruh_SFX.mp3')"></div>
+  <div class="button" onclick="playSound('sounds/ha-got-eeem.mp3')"></div>
+  <div class="button" onclick="playSound('sounds/glass.mp3')"></div>
+  <div class="button" onclick="playSound('sounds/Fart.mp3')"></div>
+  <div class="button" onclick="playSound('sounds/turret.mp3')"></div>
+  <div class="button" onclick="playSound('sounds/yeah-boy.mp3')"></div>
+  <div class="button" onclick="playSound('sounds/that_was_easy.mp3')"></div>
+  <div class="button" onclick="playSound('sounds/years_later.mp3')"></div>
+  <div class="button" onclick="playSound('sounds/Succ.mp3')"></div>
+  <div class="button" onclick="playSound('sounds/bait.mp3')"></div>
+  <div class="button" onclick="playSound('sounds/death-sound.mp3')"></div>
+
+  </body>
+</html>
